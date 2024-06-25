@@ -174,20 +174,20 @@ Create the necessary HTML templates to handle the cart, payment, and success pag
 
 ```html
 <!-- shop/templates/shop/landing_page.html -->
-{% load static %}
+ load static %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
-    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}" />
+    <link rel="stylesheet" type="text/css" href=" static 'css/styles.css' %}" />
     <script src="<https://code.jquery.com/jquery-3.6.0.min.js>"></script>
   </head>
   <body>
     <div class="navbar">
       <div class="logo">Fakeazon</div>
-      <a href="{% url 'cart_page' %}" class="cart">Cart (<span id="cart-count">0</span>)</a>
+      <a href=" url 'cart_page' %}" class="cart">Cart (<span id="cart-count">0</span>)</a>
     </div>
     <div class="container">
       <div class="header">
@@ -215,7 +215,7 @@ Create the necessary HTML templates to handle the cart, payment, and success pag
         </select>
       </div>
       <div class="product-grid">
-        {% for product in products %}
+         for product in products %}
         <div class="product-item">
           <img src="{{ product.image }}" alt="{{ product.title }}" />
           <h2>{{ product.title }}</h2>
@@ -238,7 +238,7 @@ Create the necessary HTML templates to handle the cart, payment, and success pag
             </div>
           </div>
         </div>
-        {% endfor %}
+         endfor %}
       </div>
     </div>
     <script>
@@ -311,14 +311,14 @@ This template displays a list of products. It handles adding products to the car
 
 ```html
 <!-- shop/templates/shop/cart_page.html -->
-{% load static %}
+ load static %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cart Page</title>
-    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}" />
+    <link rel="stylesheet" type="text/css" href=" static 'css/styles.css' %}" />
     <script src="<https://code.jquery.com/jquery-3.6.0.min.js>"></script>
     <script src="<https://sdk.cashfree.com/js/v3/cashfree.js>"></script>
   </head>
@@ -326,19 +326,19 @@ This template displays a list of products. It handles adding products to the car
   <body>
     <div class="navbar">
       <div class="logo">Fakeazon</div>
-      <a href="{% url 'cart_page' %}" class="cart">Cart (<span id="cart-count">0</span>)</a>
+      <a href=" url 'cart_page' %}" class="cart">Cart (<span id="cart-count">0</span>)</a>
     </div>
     <div class="container">
       <div class="cart-container">
         <div class="cart-header">
-          <a href="{% url 'landing_page' %}">Continue Shopping</a>
+          <a href=" url 'landing_page' %}">Continue Shopping</a>
           <h1>Shopping Cart</h1>
         </div>
         <div class="cart-items">
           <!-- Cart items will be dynamically loaded here -->
         </div>
         <form>
-          {% csrf_token %}
+           csrf_token %}
           <div class="cart-total">
             <div class="total-amount">Total: ₹<span id="total-amount">0.00</span></div>
             <button type="button" class="pay-now" disabled>Pay Now</button>
@@ -477,14 +477,14 @@ This template includes the necessary JavaScript to handle cart operations and in
 
 ```html
 <!-- shop/templates/shop/successfull.html -->
-{% load static %}
+ load static %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Order Successful</title>
-    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}" />
+    <link rel="stylesheet" type="text/css" href=" static 'css/styles.css' %}" />
   </head>
   <body>
     <div class="container">
@@ -492,9 +492,9 @@ This template includes the necessary JavaScript to handle cart operations and in
         <h1>Order Successful</h1>
         <p>Thank you for your purchase! Here are your order details:</p>
         <ul>
-          {% for item in cart_items %}
+           for item in cart_items %}
           <li>{{ item.title }} - Quantity: {{ item.quantity }} - Price: ₹{{ item.price }}</li>
-          {% endfor %}
+           endfor %}
         </ul>
         <p>Redirecting to the landing page in <span id="countdown">10</span> seconds...</p>
       </div>
@@ -528,7 +528,7 @@ To style your e-commerce application, you can use the provided CSS file. Ensure 
 2. Link the CSS file in your HTML templates by adding the following line in the `<head>` section:
 
 ```html
-<link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}" />
+<link rel="stylesheet" type="text/css" href="static 'css/styles.css' %}" />
 ```
 
 For a detailed CSS styling reference, you can check the `styles.css` file in the [GitHub repository](https://github.com/withshubh/fakeazon/blob/main/shop/static/css/styles.css).
