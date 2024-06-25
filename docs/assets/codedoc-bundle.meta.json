@@ -79,6 +79,11 @@
       "name": "gatherFootnotes",
       "filename": "/Users/shubhendra.chauhan/Desktop/repo/cashfree-guides/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/footnote/gather-footnotes.js",
       "hash": "5u0LLeEb92nMpoll5aGm/A=="
+    },
+    {
+      "name": "reloadOnChange",
+      "filename": "/Users/shubhendra.chauhan/Desktop/repo/cashfree-guides/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/serve/reload.js",
+      "hash": "iJW21vAxGidOGjvXSJTAMw=="
     }
   ],
   "components": [

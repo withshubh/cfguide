@@ -15,6 +15,7 @@ import { tocHighlight } from '/Users/shubhendra.chauhan/Desktop/repo/cashfree-gu
 import { postNavSearch } from '/Users/shubhendra.chauhan/Desktop/repo/cashfree-guides/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/search/post-nav/index.js';postNavSearch();
 import { copyLineLinks } from '/Users/shubhendra.chauhan/Desktop/repo/cashfree-guides/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-links/copy-line-link.js';copyLineLinks();
 import { gatherFootnotes } from '/Users/shubhendra.chauhan/Desktop/repo/cashfree-guides/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/footnote/gather-footnotes.js';gatherFootnotes();
+import { reloadOnChange } from '/Users/shubhendra.chauhan/Desktop/repo/cashfree-guides/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/serve/reload.js';reloadOnChange();
 import { ArticleCard } from '/Users/shubhendra.chauhan/Desktop/repo/cashfree-guides/rajnandan/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/article-card/index.js';
 import { DarkModeSwitch } from '/Users/shubhendra.chauhan/Desktop/repo/cashfree-guides/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/components/darkmode/index.js';
 import { ConfigTransport } from '/Users/shubhendra.chauhan/Desktop/repo/cashfree-guides/rajnandan/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js';

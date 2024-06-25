@@ -51,6 +51,9 @@ export function Header(this: ThemedComponentThis, config: CodedocConfig, rendere
       <a href="/guides/" class="nav-link">
         All Guides
       </a>
+      <a href="/app-list/" class="nav-link">
+        Sample Apps
+      </a>
       <a href="https://cashfree.com/devstudio" class="nav-link" target="_blank">
         Dev Studio
       </a>
