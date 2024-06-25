@@ -48,7 +48,7 @@ export function Header(this: ThemedComponentThis, config: CodedocConfig, rendere
       <a href="/" class="nav-link">
         Home
       </a>
-      <a href="/guides/" class="nav-link">
+      <a href="/all-guides/" class="nav-link">
         All Guides
       </a>
       <a href="/app-list/" class="nav-link">

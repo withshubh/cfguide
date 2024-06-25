@@ -12,4 +12,4 @@ Simplify payment integrations for your app or website with Cashfree Payments Dev
 
 ## June 2024
 
-- [Integrate Cashfree Payments' Payment Gateway in Your Django App Effortlessly](/guides/june-2024/django-pg)
+- [Integrate Cashfree Payments' Payment Gateway in Your Django App Effortlessly](/all-guides/june-2024/django-pg)

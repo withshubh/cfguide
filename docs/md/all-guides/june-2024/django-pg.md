@@ -174,7 +174,7 @@ Create the necessary HTML templates to handle the cart, payment, and success pag
 
 ```html
 <!-- shop/templates/shop/landing_page.html -->
- load static %}
+load static %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -215,7 +215,7 @@ Create the necessary HTML templates to handle the cart, payment, and success pag
         </select>
       </div>
       <div class="product-grid">
-         for product in products %}
+        for product in products %}
         <div class="product-item">
           <img src="{{ product.image }}" alt="{{ product.title }}" />
           <h2>{{ product.title }}</h2>
@@ -238,7 +238,7 @@ Create the necessary HTML templates to handle the cart, payment, and success pag
             </div>
           </div>
         </div>
-         endfor %}
+        endfor %}
       </div>
     </div>
     <script>
@@ -311,7 +311,7 @@ This template displays a list of products. It handles adding products to the car
 
 ```html
 <!-- shop/templates/shop/cart_page.html -->
- load static %}
+load static %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -338,7 +338,7 @@ This template displays a list of products. It handles adding products to the car
           <!-- Cart items will be dynamically loaded here -->
         </div>
         <form>
-           csrf_token %}
+          csrf_token %}
           <div class="cart-total">
             <div class="total-amount">Total: ₹<span id="total-amount">0.00</span></div>
             <button type="button" class="pay-now" disabled>Pay Now</button>
@@ -477,7 +477,7 @@ This template includes the necessary JavaScript to handle cart operations and in
 
 ```html
 <!-- shop/templates/shop/successfull.html -->
- load static %}
+load static %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -492,9 +492,9 @@ This template includes the necessary JavaScript to handle cart operations and in
         <h1>Order Successful</h1>
         <p>Thank you for your purchase! Here are your order details:</p>
         <ul>
-           for item in cart_items %}
+          for item in cart_items %}
           <li>{{ item.title }} - Quantity: {{ item.quantity }} - Price: ₹{{ item.price }}</li>
-           endfor %}
+          endfor %}
         </ul>
         <p>Redirecting to the landing page in <span id="countdown">10</span> seconds...</p>
       </div>
@@ -547,7 +547,7 @@ STATICFILES_DIRS = [
 
 In this tutorial, we've walked through the integration of Cashfree Payments' payment gateway into a Django e-commerce application. By following these steps, you can seamlessly handle payments in your Django projects using the Cashfree Python SDK.
 
-You can find the complete source code for this project in the [GitHub repository](https://github.com/cashfree/cashfree.github.io/sample-apps). Feel free to clone it and use it as a reference for your projects.
+You can find the complete source code for this project in the [GitHub repository](https://github.com/cashfree/guides/sample-apps). Feel free to clone it and use it as a reference for your projects.
 
 If you have any questions or run into issues, refer to the [Cashfree Documentation](https://docs.cashfree.com/) for more details or join the [Discord community](https://discord.gg/ed9VWDnrh7) for developer support.
 

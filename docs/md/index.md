@@ -20,4 +20,4 @@
 
 ### Latest Blog Posts
 
-> :ArticleCard src=/guides/june-2024/django-pg
+> :ArticleCard src=/all-guides/june-2024/django-pg
