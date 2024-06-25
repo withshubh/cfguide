@@ -1,6 +1,6 @@
 > :MetaOverride property=og:image
 >
-> https://guides.cashfree.com/assets/images/og.png
+> assets/images/og.png
 
 > :MetaOverride property=og:description
 >
