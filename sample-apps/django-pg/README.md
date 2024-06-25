@@ -78,14 +78,6 @@ The order creation process is handled in the create_order view. This view calcul
 
 The payment session ID is used to open the Cashfree checkout page. This is done in the cart_page.html template using the Cashfree JavaScript SDK.
 
-## Contributing
-
-Contributions are welcome! Please read the CONTRIBUTING.md file for details on how to get started.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
 #### Note
 
 This project is built to demonstrate the integration of Cashfree Payments' payment gateway in a Django application. It is not recommended for production use.
