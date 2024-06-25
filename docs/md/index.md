@@ -1,6 +1,6 @@
 > :MetaOverride property=og:image
 >
-> /assets/images/og.png
+> /guides/assets/images/og.png
 
 > :MetaOverride property=og:description
 >
