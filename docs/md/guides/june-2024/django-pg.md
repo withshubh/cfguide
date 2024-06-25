@@ -174,14 +174,14 @@ Create the necessary HTML templates to handle the cart, payment, and success pag
 
 ```html
 <!-- shop/templates/shop/landing_page.html -->
-load static
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
-    <link rel="stylesheet" type="text/css" href="static/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}" />
     <script src="<https://code.jquery.com/jquery-3.6.0.min.js>"></script>
   </head>
   <body>
@@ -311,14 +311,14 @@ This template displays a list of products. It handles adding products to the car
 
 ```html
 <!-- shop/templates/shop/cart_page.html -->
- load static 
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cart Page</title>
-    <link rel="stylesheet" type="text/css" href="static/css/styles.css'" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}" />
     <script src="<https://code.jquery.com/jquery-3.6.0.min.js>"></script>
     <script src="<https://sdk.cashfree.com/js/v3/cashfree.js>"></script>
   </head>
@@ -477,14 +477,14 @@ This template includes the necessary JavaScript to handle cart operations and in
 
 ```html
 <!-- shop/templates/shop/successfull.html -->
-load static
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Order Successful</title>
-    <link rel="stylesheet" type="text/css" href="static/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}" />
   </head>
   <body>
     <div class="container">
@@ -528,7 +528,7 @@ To style your e-commerce application, you can use the provided CSS file. Ensure 
 2. Link the CSS file in your HTML templates by adding the following line in the `<head>` section:
 
 ```html
-<link rel="stylesheet" type="text/css" href="static/css/styles.css" />
+<link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}" />
 ```
 
 For a detailed CSS styling reference, you can check the `styles.css` file in the [GitHub repository](https://github.com/withshubh/fakeazon/blob/main/shop/static/css/styles.css).
@@ -547,7 +547,7 @@ STATICFILES_DIRS = [
 
 In this tutorial, we've walked through the integration of Cashfree Payments' payment gateway into a Django e-commerce application. By following these steps, you can seamlessly handle payments in your Django projects using the Cashfree Python SDK.
 
-You can find the complete source code for this project in the [GitHub repository](https://github.com/withshubh/fakeazon). Feel free to clone it and use it as a reference for your projects.
+You can find the complete source code for this project in the [GitHub repository](https://github.com/cashfree/cashfree.github.io/sample-apps). Feel free to clone it and use it as a reference for your projects.
 
 If you have any questions or run into issues, refer to the [Cashfree Documentation](https://docs.cashfree.com/) for more details or join the [Discord community](https://discord.gg/ed9VWDnrh7) for developer support.
 
