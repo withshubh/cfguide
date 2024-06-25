@@ -79,11 +79,6 @@
       "name": "gatherFootnotes",
       "filename": "/Users/raj/githubprojects/guides/.codedoc/node_modules/@codedoc/core/dist/es6/components/footnote/gather-footnotes.js",
       "hash": "WBa4dtDVp11fW1wRSwfwBQ=="
-    },
-    {
-      "name": "reloadOnChange",
-      "filename": "/Users/raj/githubprojects/guides/.codedoc/node_modules/@codedoc/core/dist/es6/serve/reload.js",
-      "hash": "gTuNuo8L6fR1dJfGZ/84zA=="
     }
   ],
   "components": [
