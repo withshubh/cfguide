@@ -174,7 +174,7 @@ Create the necessary HTML templates to handle the cart, payment, and success pag
 
 ```html
 <!-- shop/templates/shop/landing_page.html -->
-<!-- {% load static %} include this -->
+load static
 <!DOCTYPE html>
 <html lang="en">
   <head>
