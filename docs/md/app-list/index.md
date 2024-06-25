@@ -16,4 +16,4 @@
 
 # Sample Apps
 
-- [Django E-commerce App with Cashfree Payments Integration](https://github.com/cashfree/guides/sample-apps/django-pg)
+- [Django E-commerce App with Cashfree Payments Integration](https://github.com/cashfree/cashfree.github.io/tree/main/sample-apps/django-pg)
