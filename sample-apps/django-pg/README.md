@@ -22,8 +22,8 @@ This project demonstrates how to integrate Cashfree Payments' payment gateway in
 1. **Clone the repository**:
 
    ```sh
-   git clone https://github.com/withshubh/fakeazon.git
-   cd fakeazon
+   git clone https://github.com/cashfree/guides.git
+   cd guides/sample-apps/django-pg
    ```
 
 2. **Create and activate a virtual environment**:

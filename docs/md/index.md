@@ -18,6 +18,6 @@
 
 <img src="/assets/images/og.png" style="width:770px;height:350px;border-radius:5px;filter: grayscale(10%);">
 
-### Latest Blog Posts
+### Latest Posts
 
 > :ArticleCard src=/all-guides/june-2024/django-pg
