@@ -10,6 +10,7 @@ export const config = /*#__PURE__*/ configuration({
   theme, // --> add the theme. modify `./theme.ts` for changing the theme.
   dest: {
     namespace: "", // --> your github pages namespace. remove if you are using a custom domain.
+    base: "https://cfguides.netlify.app",
   },
   page: {
     favicon: "/assets/images/favicon.ico",
