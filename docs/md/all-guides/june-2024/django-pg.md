@@ -8,7 +8,7 @@
 
 > :MetaOverride property=og:image
 >
-> /guides/assets/images/og.png
+> /assets/images/og.png
 
 # Integrate Cashfree Payments' Payment Gateway in Your Django App Effortlessly
 

@@ -2,8 +2,8 @@
 const path = require("path");
 const fs = require("fs-extra");
 
-const blogLocation = "docs/md/guides";
-const httpPath = "/guides";
+const blogLocation = "docs/md/all-guides";
+const httpPath = "/all-guides";
 
 const blogPath = path.resolve(process.cwd(), blogLocation);
 const homePageMD = path.resolve(process.cwd(), "docs/md/index.md");
@@ -79,7 +79,7 @@ folders.forEach((folder) => {
 		
 > :Author name=Unknown,
 > date=${formatDate(ts)},
-> avatar=/assets/images/cflogo.jpg,
+> avatar=/assets/images/cflogo.jpeg,
 > url=https://www.cashfree.com   
 		`;
 
@@ -92,7 +92,7 @@ folders.forEach((folder) => {
       name: heading.trim().substring(1).trim(),
       ts: new Date(ts).getTime(),
       filePath,
-      httpPath: "/blogs" + filePath.split("/blogs")[1].split(".md")[0],
+      httpPath: "/all-guides" + filePath.split("/all-guides")[1].split(".md")[0],
     });
   });
 });
